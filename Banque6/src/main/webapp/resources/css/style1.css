@@ -1,0 +1,205 @@
+body {
+   /*  margin:0;
+    padding:0; 
+    line-height: 1.5em;  */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    background: #ffffff;
+}
+
+	a:link, a:visited { color: #008fc1; text-decoration: none; }
+	a:active, a:hover { text-decoration: underline; }
+
+/* debut entete----------------------------------------------------------------------------------------------------------------- */
+
+   #templatemo_header {
+    clear: both;
+    padding-left: 175px;
+    /* padding-right:  */
+    margin: 0px 0px 5px 0px;
+    width: 930px; 
+    height: 147px;
+}
+
+#logosection {
+    /* margin: 0px 3px 0px 0px; */
+   /*  float: left; */
+   display:inline-block;
+   vertical-align: top;
+   /*  width: 275px; */
+    height: 147px;
+    background: url(../images/templatemo_logo_background.gif) no-repeat;
+}
+
+.sitelogo {
+    margin: 20px 0px 0px 20px;
+    padding: 0px;
+    height: 80px;
+    background:url(../images/bank_logo.png) no-repeat;
+}
+
+.sitename {
+   /*  margin: 10px 0px 0px 20px; */
+    /* padding: 0px; */
+    font: 35px Arial;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.sitename span {
+    font-weight: normal;
+}
+
+#header {
+    /* margin: 0px; */
+    /* float: right; */
+    display: inline-block;
+    vertical-align: top;
+    width: 690px;
+    height: 147px;
+    background: url(../images/templatemo_heading_background.jpg) no-repeat;
+}
+
+#header .title{
+    padding: 50px 0px 0px 180px;
+    font-size: 20px;
+    font-weight:bold;
+    color: #333333;
+    line-height: 25px;
+}
+
+#header .bigtext{
+    font-size: 30px;
+    font-weight:bold;
+    color: #ffffff;
+}
+#connexion_gauche{
+	background-color:silver; height:25px; margin-left: 175px; border: black; width: 206.125; display: inline-block; vertical-align: top;
+}
+#connexion_droit{
+	background-color:silver; width:690px; height:25px; display: inline-block; vertical-align: top;
+}
+/* fin entete ----------------------------------------------------------------------------------------------------  */
+
+
+#leftcolumn_box02 {
+    width: 183px;
+    padding: 10px 10px 10px 15px;
+    background: #6ebfdc;
+    border-top: 5px solid #008fc1;
+   /*  margin: 0px 0px 10px 0px; */
+   margin-top: 15px;
+}
+#leftcolumn_box02 ul {
+    margin: 0px;
+    padding: 10px 0px 0px 5px;
+    list-style: none;
+}
+
+#leftcolumn_box02 ul li{
+    display: block;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+}
+
+#leftcolumn_box02 ul li a{
+    padding: 0px 0px 0px 15px;
+    margin: 0px;
+    color: #ffffff;
+    text-decoration: none;
+    background: url(../images/templatemo_list_icon02.gif) center left no-repeat;
+}
+
+#leftcolumn_box02 ul li a:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+#menuGauche {
+	/* float: left; */
+	margin-left: 175px;
+	margin-right: 30px;
+	width: 150px;
+	display: inline-block;
+	vertical-align: top;
+}
+#contenuDroite{
+	/* float: right;
+ 	margin-right: 50px; */
+ 	display: inline-block;
+	vertical-align: top;
+	margin-left: 45px;
+	margin-top: 10px;
+ }
+ #contenuClients{
+	float: right;
+ 	margin-right: 300px;
+ }
+#contenuAddToGroupe{
+	float: right;
+	margin-right: 50px;
+	width: 700px;
+}
+.droite{
+	float: left;
+}
+.gauche {
+	float: right;
+}
+	
+
+
+
+
+
+div{
+	/* padding: 10px;
+	margin: 10px; */
+}
+.table th{
+	padding: 10px;
+	margin: 10px;
+	border: 1px dotted gray;
+	background: blue;
+}
+.table td{
+	padding: 10px;
+	margin: 10px;
+	border: 1px dotted gray;
+	background: white;
+}
+.addClient{
+	float: left;
+}
+.addClient1{
+	float: right;
+	margin-right: 30px;
+}
+.addClient1 table th{
+	padding: 10px;
+	margin: 10px;
+	border: 1px dotted gray;
+	background: blue;
+}
+.addClient1 table td{
+	padding: 10px;
+	margin: 10px;
+	border: 1px dotted gray;
+	background: white;
+}
+/* .showClients table th{
+	padding: 10px;
+	margin: 10px;
+	border: 1px dotted gray;
+	background: blue;
+}
+.showClients table td{
+	padding: 10px;
+	margin: 10px;
+	border: 1px dotted gray;
+	background: white;
+} */
